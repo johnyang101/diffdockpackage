@@ -6,7 +6,7 @@ setup(
     author="Giacomo Corso",
     author_email="author@domain.com", 
     description="Description of the DiffDock project",
-    url="https://github.com/gcorso/DiffDock",
+    url="https://github.com/johnyang101/diffdockpackage",
     packages=find_packages(exclude=["tests*", "workdir*", "data*", "baselines*", "visualizations*"]),
     install_requires=[
         'numpy',
