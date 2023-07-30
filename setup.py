@@ -7,14 +7,14 @@ setup(
     author_email="author@domain.com", 
     description="Description of the DiffDock project",
     url="https://github.com/johnyang101/diffdockpackage",
-    packages=find_packages(exclude=["tests*", "workdir*", "data*", "baselines*", "visualizations*"]),
-    install_requires=[
-        'numpy',
-        'torch',
-        'torch-geometric',
-        'matplotlib',
-        # Add other dependencies as per the environment.yml
-    ],
+    packages=find_packages(),
+    # install_requires=[
+    #     'numpy',
+    #     'torch',
+    #     'torch-geometric',
+    #     'matplotlib',
+    #     # Add other dependencies as per the environment.yml
+    # ],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
