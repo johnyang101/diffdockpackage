@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="DiffDock",
+    name="diffdock_pip",
     version="0.1",
     author="Giacomo Corso",
     author_email="author@domain.com", 
