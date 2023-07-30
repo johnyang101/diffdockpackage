@@ -1,4 +1,4 @@
-name: diffdock
+name: diffdock_pip
 channels:
   - pytorch
   - defaults
